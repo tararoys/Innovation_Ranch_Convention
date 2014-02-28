@@ -52,7 +52,7 @@ describe("Logistics", function(){
     it("By Zepplin", function(){
       var sadly_there_is_only_one_and_it_only_fits_ten_people = true;
       var its_a_shame = sadly_there_is_only_one_and_it_only_fits_ten_people
-      expect(its_a_shame).toEqual(true);
+      expect(its_a_shame).toEqual(false);
       //http://milwaukee.about.com/od/festivalsevents/qt/Zeppelin-Takes-To-Milwaukee-Skies.htm
     });
   })
